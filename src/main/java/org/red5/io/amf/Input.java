@@ -136,6 +136,7 @@ public class Input extends BaseInput implements org.red5.io.object.Input {
 				case AMF.TYPE_REFERENCE:
 					return DataTypes.OPT_REFERENCE;
 				case AMF.TYPE_UNSUPPORTED:
+					return DataTypes.CORE_NULL;
 				case AMF.TYPE_MOVIECLIP:
 				case AMF.TYPE_RECORDSET:
 					// These types are not handled by core datatypes
@@ -619,7 +620,7 @@ public class Input extends BaseInput implements org.red5.io.object.Input {
 	 */
 	@Override
 	public Vector<Integer> readVectorInt() {
-		throw new RuntimeException("Vector objects not supported with AMF0");
+		return null;
 	}
 
 	/**
@@ -630,7 +631,7 @@ public class Input extends BaseInput implements org.red5.io.object.Input {
 	 */
 	@Override
 	public Vector<Long> readVectorUInt() {
-		throw new RuntimeException("Vector objects not supported with AMF0");
+		return null;
 	}
 
 	/**
@@ -641,7 +642,7 @@ public class Input extends BaseInput implements org.red5.io.object.Input {
 	 */
 	@Override
 	public Vector<Double> readVectorNumber() {
-		throw new RuntimeException("Vector objects not supported with AMF0");
+		return null;
 	}
 
 	/**
@@ -652,7 +653,7 @@ public class Input extends BaseInput implements org.red5.io.object.Input {
 	 */
 	@Override
 	public Vector<Object> readVectorObject() {
-		throw new RuntimeException("Vector objects not supported with AMF0");
+		return null;
 	}
 
 	/**
