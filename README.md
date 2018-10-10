@@ -12,7 +12,8 @@ The users list may be found here: https://groups.google.com/forum/#!forum/red5in
 
 Automatic builds may be found here: https://builds.apache.org/view/M-R/view/OpenMeetings/job/Red5-io/ (Thanks to Apache and OpenMeetings)
 
-Mes modifications
+Mes modifications/My Edits
 =======
 
 Continuer une requête AMF0 même si un Vector est détecté.
+Continue an AMF0 request if a Vector is detected.
