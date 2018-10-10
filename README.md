@@ -16,4 +16,5 @@ Mes modifications/My Edits
 =======
 
 Continuer une requête AMF0 même si un Vector est détecté.
+
 Continue an AMF0 request if a Vector is detected.
